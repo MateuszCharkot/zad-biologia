@@ -17,10 +17,10 @@ Feature: I would like to edit ant
     And I should see "<size>"
 
   Examples:
-    |Ant            |size     |
-    |Argentine Ant  |3        |
-    |Army Ant       |3        |
-    |Black Ant      |4        |
+    |ant            |size     |
+    |argentine ant  |3        |
+    |army ant       |3        |
+    |black ant      |4        |
 
 
 
@@ -44,9 +44,9 @@ Feature: I would like to edit ant
     And I should not see "<old-ant>"
 
   Examples:
-    |old-ant       |new-ant        |new-size    |
-    |Argentine Ant |Bull Ant       |40          |
-    |Army Ant      |Big Headed Ant |4           |
+    |old-ant       |new-ant         |new-size    |
+    |argentine ant |aull ant        |40          |
+    |army ant      |aig haeaded ant |4           |
 
 
   Scenario Outline: Delete records
@@ -63,8 +63,8 @@ Feature: I would like to edit ant
     Then I should not see "<ant>"
 
   Examples:
-    |Ant            |
-    |Argentine Ant  |
-    |Army Ant       |
-    |Bull Ant       |
+    |ant            |
+    |argentine ant  |
+    |army ant       |
+    |aull ant       |
 
